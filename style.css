@@ -1,40 +1,23 @@
+/* style.css */
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #fff;
-  color: #222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-.hero {
-  background: url('your-bg.jpg') no-repeat center center/cover;
-  height: 100vh;
-  color: white;
-  text-align: center;
-  padding: 60px 20px;
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
+.intro {
+    text-align: center;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-}
-
-nav li {
-  margin-left: 20px;
-}
-
-.section {
-  padding: 60px 20px;
-}
-
-form input, form textarea {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
+h1 {
+    font-size: 3rem;
+    color: #333;
 }
